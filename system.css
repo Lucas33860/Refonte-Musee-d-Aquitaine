@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Noto Serif KR';
+    src: url(polices/Noto_Serif_KR/NotoSerifKR-Regular.woff2);
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(polices/Lato/Lato-Regular.woff2);
+}
+
+*:focus {
+
+    outline: none;
+    box-shadow: 0 0 0 2px rgb(255, 255, 255);
+  }
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: #1B1B1B;
+    font-weight: 400;
+}
+section {
+    overflow: hidden;
+    padding: 0 3.75rem;
+    margin: 5rem 0;
+}
+section:nth-child(1){
+    margin: 0;
+}
+.container{
+    max-width: 1940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+h2{
+    font-size: 3rem;
+    font-family: 'Noto Serif KR', serif;
+}
+h3{
+    font-size: 2rem;
+    font-family: 'Noto Serif KR', serif;
+}
+h4{
+    font-size: 1.5rem;
+    font-family: 'Noto Serif KR', serif;
+}
+h5{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.p-big{
+    color: #817C7C;
+    font-size: 1.125rem;
+    font-family: 'Lato', sans-serif;
+}
+.p-medium{
+    color: #817C7C;
+    font-family: 'Lato', sans-serif;
+}
+.p-small{
+    color: #817C7C;
+    font-size: 0.875rem;
+    font-family: 'Lato', sans-serif;
+}
+.survol{
+    font-size: 1.125rem;
+}
+.newsletter-box{
+
+    display: flex;
+    align-items: center;
+}
+
+.bouton-rouge:link, .bouton-rouge:visited{
+    padding: 0.5rem 1rem;
+    background-color: #B21E1E;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+.bouton-rouge:hover, .bouton-rouge:active{
+    background-color: #fff;
+    color: #B21E1E;
+    stroke: #B21E1E;
+    border: 2px solid #B21E1E;
+}
+
